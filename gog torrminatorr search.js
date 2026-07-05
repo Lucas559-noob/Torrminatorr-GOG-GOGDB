@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GOG + GOGDB → Torrminatorr Search
 // @namespace    https://github.com/Lucas559-noob/Userscripts
-// @version      1.1
+// @version      1.1a
 // @description  Adds a Torrminatorr search button on GOG.com and GOGDB game pages
 // @author       Lucas559-noob
 // @match        https://www.gog.com/game/*
