@@ -176,9 +176,10 @@
     }
 
     const host = window.location.hostname;
-    if (host.includes('gog.com')) {
+    const isHost = (value, domain) => value === domain || value.endsWith(`.${domain}`);
+    if (isHost(host, 'gog.com')) {
         initGog();
-    } else if (host.includes('gogdb.org')) {
+    } else if (isHost(host, 'gogdb.org')) {
         initGogdb();
     }
 })();
